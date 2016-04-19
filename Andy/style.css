@@ -1,0 +1,169 @@
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+
+
+
+body {
+	background-color: white;
+	padding-top: 60px;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	right: 0;
+
+  	}
+  
+.panel-height{
+	 
+	max-width: 2px;
+ }
+
+.panel-login {
+  border-color: #ccc;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.panel-login>.panel-heading {
+  color: #00415d;
+  background-color: #fff;
+  border-color: #000000;
+  text-align: center;
+}
+
+.panel-login>.panel-heading a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.panel-login>.panel-heading a.active {
+  color: #1600ff;
+  font-size: 18px;
+}
+
+.panel-login>.panel-heading hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  clear: both;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+}
+
+.panel-login input[type="text"],
+.panel-login input[type="email"],
+.panel-login input[type="password"] {
+  height: 45px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.panel-login input:hover,
+.panel-login input:focus {
+  outline: black;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: 0px 0px 0px black;
+  border-color: #000000;
+}
+
+.btn-login {
+background-image: none;
+  background-color: white;
+  outline: none;
+  color: #399fbe;
+  font-size: 14px;
+  height: auto;
+  font-weight: normal;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-color: #399fbe;
+}
+
+.btn-green {
+	background-image: none;
+  background-color: #FFFFFF;
+  outline: none;
+  color: #3fd353;
+  font-size: 14px;
+  height: auto;
+  font-weight: normal;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-color: #3fd353;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+ background-image: none;
+  color: white;
+  background-color: #399fbe;
+  border-color: #399fbe;
+}
+
+.btn-green:hover,
+.btn-green:focus {
+ background-image: none;
+  color: #FFFFFF;
+  background-color: #3fd353;
+  border-color: #3fd353;
+}
+
+.custom {
+    width: 150px !important;
+}
+
+.btn-margin {
+    margin-top: 20px;
+}
+.btn-margin10 {
+    margin-top: 10px;
+}
+
+.col-lg-40 {
+	width: 40;
+}
+
+ html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+.hum-title {
+	    vertical-align: middle;
+
+}
+
+
